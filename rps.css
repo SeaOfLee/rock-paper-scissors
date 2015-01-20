@@ -1,0 +1,13 @@
+#choices {
+	width: 100%;
+	display: inline;
+}
+#rock{
+	width: 200px;
+}
+#paper{
+	width: 200px;
+}
+#scissors {
+	width: 200px;
+}
