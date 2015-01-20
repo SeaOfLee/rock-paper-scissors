@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Rock. Paper. Scissors!</title>
-	<style type="text/css" src="rps.css"></style>
-	
+	<link rel="stylesheet" type="text/css" href="rps.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 	</head>
 <body>
 
@@ -12,9 +12,11 @@
 	<h3>Choose one.</h3>
 </div>
 
-<p id="rock">Rock.</p>
-<p id="paper">Paper.</p>
-<p id="scissors">Scissors.</p>
+<div id="choices">
+	<h4 id="rock">Rock.</h4>
+	<h4 id="paper">Paper.</h4>
+	<h4 id="scissors">Scissors.</h4>
+</div>
 
 <!-- <div id="choices">
 	<div id="rock">
@@ -25,13 +27,9 @@
 		<img src="images/scissors.png">
 </div>
  -->
-<div id="results">
-	<div id="win">
-		<p>WINNER</p>
-	</div>
-	<div id="lose">	
-		<p>LOSER</p>
-</div>
+	<div id="results">
+		<p>You Win! :-)</p>
+	</div>	
 
 </body>
 <script type="text/javascript" src="rps.js"></script>
